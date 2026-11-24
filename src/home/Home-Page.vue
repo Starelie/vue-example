@@ -5,16 +5,16 @@ import BaseFooter from '../components/BaseFooter.vue'
 </script>
 
 <template>
-  <header>
-		<BaseHeader />
-  </header>
+  <BaseHeader />
   <main>
-		<h1>Ceci est la page principale de mon site web</h1>
-    <Welcome msg="Bravo! Tu as créé une page"/>
+    <h1>Ceci est la page principale de mon site web</h1>
+    <Welcome>
+      <template v-slot:text>
+        Bravo! Tu as créé une page!
+      </template>
+    </Welcome>
   </main>
-	<footer>
-		<BaseFooter />
-	</footer>
+  <BaseFooter />
 </template>
 
 <style scoped>

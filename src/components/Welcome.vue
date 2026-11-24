@@ -1,21 +1,38 @@
 <script setup>
 defineProps({
-  msg: {
+  color: {
     type: String,
-    required: true,
+    required: false,
+    default: "green",
   },
 })
 </script>
 
 <template>
   <div class="greetings">
-    <h1 class="green">Bienvenue</h1>
-    <h3>
-      {{ msg }}
-    </h3>
+    <h1 :class="color">Bienvenue</h1>
+    <h3><slot name="text"></slot></h3>
   </div>
 </template>
 
 <style scoped>
-/* Inclure ici le css spécifique à cette page */
+.green {
+  color: green;
+}
+
+.blue {
+  color: blue;
+}
+
+.red {
+  color: red;
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
+}
 </style>
