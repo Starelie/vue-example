@@ -2,6 +2,6 @@
   <!-- Ajoutez le html du Header -->
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 /* Ajoutez le css du Header */
 </style>

@@ -15,7 +15,7 @@ defineProps({
   </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 .green {
   color: green;
 }

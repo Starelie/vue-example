@@ -17,8 +17,6 @@ import BaseFooter from '../components/BaseFooter.vue'
   <BaseFooter />
 </template>
 
-<style scoped>
-/* Inclure ici le css spécifique à cette page
-Du scss (css mais un peu plus pratique) peut être utilisé en instalant un
-package en plus et en ajoutant `lang="scss"` dans la balise style */
+<style scoped lang="scss">
+/* Inclure ici le css spécifique à cette page */
 </style>
