@@ -101,7 +101,7 @@ import BaseFooter from '../components/BaseFooter.vue'
 
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 p {
   text-align: justify;
 }

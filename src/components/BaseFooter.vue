@@ -12,7 +12,7 @@
   </footer>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 footer {
   display: flex;
   justify-content: space-between;

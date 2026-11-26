@@ -42,7 +42,7 @@ import BaseFooter from '../components/BaseFooter.vue'
 
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 body {
   background-color: ghostwhite;
   text-align: center;

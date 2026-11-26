@@ -54,7 +54,7 @@
   </header>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 /* MENU */
 
 nav a {
