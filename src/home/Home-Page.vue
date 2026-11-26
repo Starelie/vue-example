@@ -8,7 +8,7 @@ import BaseFooter from '../components/BaseFooter.vue'
   <BaseHeader />
   <main>
     <h1>Ceci est la page principale de mon site web</h1>
-    <Welcome>
+    <Welcome v-bind:color="green">
       <template v-slot:text>
         Bravo! Tu as créé une page!
       </template>
